@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burger Chedder</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptiv.css">
+</head>
+
+<body>
+
+<section class="main">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"> <img src="images/Logo.png" alt="Logo" ></a>
+            </div>
+            <nav class="menu">
+                <ul class="menu-list">
+
+                    <li class="menu-item">
+                        <a data-link="why">We offer</a>
+                    </li>
+                    <li class="menu-item">
+                        <a data-link="products">Burger menu</a>
+                    </li>
+                    <li class="menu-item">
+                        <a data-link="order">Add order</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="aboutuseng.html">About Us</a>
+                    </li>
+                    <li class="menu-item lang">
+                        <a class="lang1" href="indexru.html">RU<img class="lang1"  src="images/flag-russia.svg"></a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <div class="container">
+            <div class="main-info">
+                <span class="main-small-info">new info</span>
+                <h1 class="main-title">BURGER CHEDDER</h1>
+                <p class="main-text">We have updated our menu, hurry up to try seasonal new items 
+                    and enjoy the excellent taste of our burgers. 
+                    We prepare for you the best burgers in the city from selected marbled beef.
+                </p>
+                <div class="main-action">
+                    <button class="button" id="main-action-button">View menu</button>
+                </div>
+            </div>
+            <img src="images/main_burger.png" alt="Big-burger" class="main-image">
+        </div>
+    </section>
+</section>
+
+
+<section class="why" id="why">
+    <div class="container">
+        <div class="why-title common-title">WHY CHOOSE US?</div>
+        <div class="why-items">
+            <div class="why-item">
+                <img src="images/burger.png" alt="burger" class="why-item-image">
+                <div class="why-item-title">Author's recipes</div>
+                <div class="why-item-text">
+                    Our burgers have a unique combination of flavors and are unlike any other. 
+                    We carefully select the best ingredients and 
+                    flavor combinations for our menu.
+                </div>
+            </div>
+            <div class="why-item">
+                <img src="images/meat.png" alt="meat" class="why-item-image">
+                <div class="why-item-title">Marble beef</div>
+                <div class="why-item-text">
+                    For our burgers we use selected 100% marbled beef, 
+                    which we purchase exclusively from farmers. 
+                    We are confident in the quality of our meat.
+                </div>
+            </div>
+            <div class="why-item">
+                <img src="images/food%20truck.png" alt="food truck" class="why-item-image">
+                <div class="why-item-title">Fast delivery</div>
+                <div class="why-item-text">
+                    We deliver within Tbilisi in 30 minutes, and if we don’t make it in time, delivery is free. 
+                    We carefully pack our burgers so they don't get cold along the way.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="products" id="products">
+    <div class="container">
+        <div class="currency" id="change-currency">$</div>
+        <div class="common-title products-title">choose your burger</div>
+        <div class="products-items">
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/1.png" alt="burger 1">
+                </div>
+                <div class="products-item-title">Burger cheddar & bacon</div>
+                <div class="products-item-text">Krispie beef patty, bun, tomato, 
+                    Cheddar cheese, brisket, red onion, 
+                    iceberg lettuce, mayonnaise, ketchup, cheese sauce
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="8">8 $</div>
+                        <div class="products-item-weight">360 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/2.png" alt="burger 2">
+                </div>
+                <div class="products-item-title">BBQ with bacon and chicken</div>
+                <div class="products-item-text">Brioche bun with sesame seeds, chicken cutlet, cheddar cheese, tomato,
+                    pickled cucumber, pickled onion, romaine lettuce, bacon, sauce
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="7">7 $</div>
+                        <div class="products-item-weight">390 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/3.png" alt="burger 3">
+                </div>
+                <div class="products-item-title">Double beef burger</div>
+                <div class="products-item-text">Two beef patties, cheddar cheese, romaine lettuce, pickles,
+                    fresh tomato, bacon, red onion, sauce, mustard
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="10">10 $</div>
+                        <div class="products-item-weight">420 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/4.png" alt="burger 4">
+                </div>
+                <div class="products-item-title">Bavarian burger</div>
+                <div class="products-item-text">Burger bun, beef cutlet, red onion, cheese, hunter's
+                    sausage, barbecue sauce, cheese sauce, iceberg lettuce
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="7">7 $</div>
+                        <div class="products-item-weight">220 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/5.png" alt="burger 5">
+                </div>
+                <div class="products-item-title">Bacon cheeseburger</div>
+                <div class="products-item-text">Burger bun, beef cutlet, brisket, tomato, pickled cucumber, cheese, 
+                    cheese sauce, ketchup, greens
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="8">8 $</div>
+                        <div class="products-item-weight">220 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/6.png" alt="burger 6">
+                </div>
+                <div class="products-item-title">Indiana burger</div>
+                <div class="products-item-text">Burger bun, chicken cutlet, brisket, egg, cucumber
+                    pickled, crispy onions, ketchup, cheese sauce, mustard, greens
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="9">9 $</div>
+                        <div class="products-item-weight">320 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/7.png" alt="burger 7">
+                </div>
+                <div class="products-item-title">Veggie burger</div>
+                <div class="products-item-text">Burger bun, vegetarian patty, red onion, cheese, 
+                    fresh tomato, barbecue sauce, cheese sauce, iceberg lettuce
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="8">8 $</div>
+                        <div class="products-item-weight">280 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/8.png" alt="burger 8">
+                </div>
+                <div class="products-item-title">Weepy Joe</div>
+                <div class="products-item-text">Burger bun, beef cutlet, brisket, tomato, pickled cucumber, 
+                    red onion, cheese, jalapeno pepper, ketchup, greens
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="7">7 $</div>
+                        <div class="products-item-weight">380 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/9.png" alt="burger 9">
+                </div>
+                <div class="products-item-title">Double cheese burger</div>
+                <div class="products-item-text">Burger bun, two beef patties, double cheddar cheese, pickled cucumber,
+                     crispy onion, ketchup, cheese sauce, mustard, greens
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="11">11 $</div>
+                        <div class="products-item-weight">400 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/10.png" alt="burger 10">
+                </div>
+                <div class="products-item-title">Freshburger</div>
+                <div class="products-item-text">Burger bun, beef patty, bacon, cheddar cheese, egg, 
+                    salami, barbecue sauce, cheese sauce, iceberg lettuce, fresh tomato
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="9">9 $</div>
+                        <div class="products-item-weight">300 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/11.png" alt="burger 11">
+                </div>
+                <div class="products-item-title">Zucchini burger</div>
+                <div class="products-item-text">Burger bun, vegetarian chickpea patty, grilled zucchini, 
+                    tomato, pickled cucumber, cheese, mustard sauce, ketchup, greens
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="8">8 $</div>
+                        <div class="products-item-weight">320 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/12.png" alt="burger 12">
+                </div>
+                <div class="products-item-title">Double burger cheddar</div>
+                <div class="products-item-text">Burger bun, beef cutlet, brisket, red onion, pickled cucumber, 
+                    tomato, ketchup, double cheddar cheese, mustard, greens
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="9">9 $</div>
+                        <div class="products-item-weight">360 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/13.png" alt="burger 13">
+                </div>
+                <div class="products-item-title">Black White Light</div>
+                <div class="products-item-text">Black and white burger bun, beef patty, 
+                    Parmesan cheese, hot sauce
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="9">12 $</div>
+                        <div class="products-item-weight">290 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/14.png" alt="burger 14">
+                </div>
+                <div class="products-item-title">Black White Bacon</div>
+                <div class="products-item-text">Black and white burger bun, beef patty, bacon, Cheddar cheese, 
+                    iceberg lettuce, sauce, cucumber
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="9">13 $</div>
+                        <div class="products-item-weight">310 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/15.png" alt="burger 15">
+                </div>
+                <div class="products-item-title">Black White Max</div>
+                <div class="products-item-text">Black and white burger bun, beef patty, Cheddar cheese, 
+                    iceberg lettuce, egg, black sauce
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="9">16 $</div>
+                        <div class="products-item-weight">330 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/16.png" alt="burger 16">
+                </div>
+                <div class="products-item-title">Black Star Lite</div>
+                <div class="products-item-text">Black burger bun, chicken cutlet, egg, iceberg lettuce, 
+                    fresh tomato, cucumber, Black sauce
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="9">13 $</div>
+                        <div class="products-item-weight">290 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/17.png" alt="burger 17">
+                </div>
+                <div class="products-item-title">Black Star</div>
+                <div class="products-item-text">Black burger bun, beef patty, Cheddar cheese, 
+                    iceberg lettuce, fresh tomato, cucumber
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="9">14 $</div>
+                        <div class="products-item-weight">310 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-item">
+                <div class="product-item-image">
+                    <img src="images/18.png" alt="burger 18">
+                </div>
+                <div class="products-item-title">Black Star Max</div>
+                <div class="products-item-text">Black burger bun, beef cutlet, bacon, onion, cheddar cheese, 
+                    iceberg lettuce, fresh tomato, ketchup
+                </div>
+                <div class="products-item-extra">
+                    <div class="products-items-info">
+                        <div class="products-item-price" data-base-price="9">15 $</div>
+                        <div class="products-item-weight">330 g</div>
+                    </div>
+                    <div class="products-item-action">
+                        <button class="button product-button">
+                            <span>Buy now</span>
+                            <span>
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                      fill="#191411"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="order" id="order">
+    <div class="container">
+        <div class="order-title common-title">MAKE AN ORDER</div>
+        <img src="images/order_image.png" alt="burger in the box" class="order-image">
+        <div class="order-form">
+            <div class="order-form-text">Fill in all the data and our manager will contact you to confirm the order
+            </div>
+            <div class="order-form-inputs">
+                <div class="order-form-input">
+                    <input type="text" placeholder="Your order" id="burger">
+                </div>
+                <div class="order-form-input">
+                    <input type="text" placeholder="Your name" id="name">
+                </div>
+                <div class="order-form-input">
+                    <input type="text" placeholder="Your phone" id="phone">
+                </div>
+                <button class="button" id="order-action">ORDER</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="logo">
+            <img src="images/Logo.png" alt="Logo">
+        </div>
+        <div class="rights">All rights reserved <br> For questions call +995 571 333 047</div>
+    </div>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
